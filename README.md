@@ -1,6 +1,4 @@
 # CSV to JSON Parser
-
-## What is it?
 This application watches a specific directory and when a CSV file is dropped into it, the app processes this CSV and converts it to be formatted as JSON.
 
 ## How do I use it?
@@ -16,7 +14,7 @@ This application watches a specific directory and when a CSV file is dropped int
 If you want to run unit tests for the application:
 - From the root of the project, run `npm run test`.
 
-### Requirements
+## Requirements
 - Node Version: `>=22.14.0`
 - Dependencies (installed via `npm i`)
     - `chokidar`
