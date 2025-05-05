@@ -14,6 +14,10 @@ This application watches a specific directory and when a CSV file is dropped int
 If you want to run unit tests for the application:
 - From the root of the project, run `npm run test`.
 
+### Docker Container:
+1. From the root of the project, run `docker build -t 422-final .`
+2. Then run, `docker run -p 3000:3000 422-final` 
+
 ## Requirements
 - Node Version: `>=22.14.0`
 - Dependencies (installed via `npm i`)
