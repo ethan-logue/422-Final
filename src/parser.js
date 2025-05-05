@@ -35,7 +35,9 @@ module.exports = {
                     fs.writeFile(outputFile, JSON.stringify(rows, null, 2), (err) => {
                         if (err) { return; }
 
-                        console.info('\x1b[38;2;0;0;170m%s\x1b[0m', `Parsed ${file}`);
+                        // Commenting out due to jest error:
+                        // 'Cannot log after tests are done. Did you forget to wait for something async in your test?'
+                        // console.info('\x1b[38;2;0;0;170m%s\x1b[0m', `Parsed ${file}`);
                     });
                 });
             })

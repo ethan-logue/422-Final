@@ -7,6 +7,8 @@
         "node": "22.15.0"
     },
     "scripts": {
+        "start": "node src/service.js",
+        "test": "jest"
     },
     "author": "Nick Snyder",
     "license": "MIT",
